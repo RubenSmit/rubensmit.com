@@ -1,40 +1,207 @@
 @import "variablescustomized";
 
-.carousel-inner {
-  height: 75vh;
+body {
+  background-color: $light
+}
 
-  &:after {
-    content: "";
+.card {
+  border-bottom-width: 5px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#carousel {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+
+  .carousel-image {
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .carousel-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-content: flex-end;
+    background-image: linear-gradient(45deg, $gradient-start, $gradient-end);
+
+    .carousel-header-title {
+      color: $white;
+      font-weight: bold;
+      font-size: 4rem;
+    }
+
+    .carousel-header-subtitle {
+      font-size: 2rem;
+      color: darken($white, 10%);
+    }
+  }
+
+  .carousel-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255,255,255,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .carousel-overlay-container {
+      text-align: center;
+    }
+
+    .carousel-overlay-title {
+      color: $white;
+      font-weight: bold;
+      font-size: 4.5rem;
+    }
+
+    .carousel-overlay-subtitle {
+      font-size: 2.5rem;
+      color: darken($primary, 5%);
+    }
+  }
+
+  @media (max-width: map-get($grid-breakpoints, lg)) {
+    .carousel-overlay {
+      .carousel-overlay-title {
+        font-size: 4rem;
+      }
+
+      .carousel-overlay-subtitle {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    .carousel-overlay {
+      .carousel-overlay-title {
+        font-size: 3.5rem;
+      }
+
+      .carousel-overlay-subtitle {
+        font-size: 1.75rem;
+      }
+    }
+  }
+
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    .carousel-overlay {
+      margin: 0 15px;
+
+      .carousel-overlay-title {
+        font-size: 3rem;
+      }
+
+      .carousel-overlay-subtitle {
+        font-size: 1.5rem;
+      }
+    }
   }
 }
 
-.carousel-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#cards {
+  section {
+    .section-header {
+      padding-top: 50px;
+    }
 
-  .carousel-overlay-container {
-    text-align: center;
+    .section-footer {
+      margin-bottom: 50px;
+    }
   }
 
-  .carousel-overlay-title {
-    color: darken($primary, 5%);
-    font-weight: bold;
-    font-size: 4rem;
+  .card {
+    margin: 20px 0;
+  }
+}
+
+footer {
+  padding-top: 50px;
+
+  .footer-links {
+    .footer-link-list {
+      list-style-type: none;
+      padding: 0;
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        margin-right: 10px;
+        margin-bottom: 5px;
+      }
+
+      a {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      a:hover {
+        color: $white;
+        text-decoration: none;
+      }
+
+      @media (max-width: map-get($grid-breakpoints, sm)) {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.article-header {
+  margin-bottom: 50px;
+
+  .article-header-paragraph {
+    padding-top: 1rem;
   }
 
-  .carousel-overlay-subtitle {
-    font-size: 2rem;
+  .article-header-text {
+    font-size: 1.25rem;
   }
+}
+
+.article-section {
+  margin-bottom: 50px;
+
+  .section-header {
+    padding-top: 50px;
+    margin-bottom: 1rem;
+  }
+
+  .section-paragraph-title {
+    color: $primary;
+  }
+
+  .section-image img{
+    width: 100%;
+  }
+
+  .section-image-caption {
+    margin-top: .5rem;
+    font-style: italic;
+    color: $primary;
+  }
+}
+
+.projects-section .row {
+  margin-bottom: 50px;
+}
+
+.contact-section {
+  margin-bottom: 50px;
 }

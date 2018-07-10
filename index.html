@@ -10,9 +10,9 @@
   <script src="./js/bootstrap.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="#">Ruben Smit</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Navigatie uitklappen">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -21,30 +21,203 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(huidige pagina)</span></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projecten</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
 
-  <div id="carouselMain" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="./img/background.jpg" alt="Achtergrond met water rippelingen">
+  <header>
+    <div id="carousel">
+      <div class="carousel-video">
+        <video width="1920px" height="100%" poster="/img/background-home.jpg" autoplay loop>
+          <source src="vid/background-video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-overlay">
+        <div class="carousel-overlay-container">
+          <h1 class="carousel-overlay-title">Ruben Smit</h1>
+          <p class="carousel-overlay-subtitle">Student HBO-ICT en Web Developer</p>
+        </div>
       </div>
     </div>
-    <div class="carousel-overlay">
-      <div class="carousel-overlay-container">
-        <h1 class="carousel-overlay-title">Ruben Smit</h1>
-        <p class="carousel-overlay-subtitle">Student HBO-ICT en Rails Developer</p>
+  </header>
+
+  <article id="cards">
+    <section id="studie">
+      <div class="row justify-content-center section-header bg-light">
+        <div class="col-md-8 col-sm-10">
+          <h2 class="section-header-title">Student HBO-ICT</h2>
+          <p class="section-header-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-10">
+          <aside class="card">
+            <img class="card-img-top" src="./img/background-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Project</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+              </p>
+              <a href="#" class="btn btn-primary">Lees meer</a>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-md-4 col-sm-10">
+          <div class="card">
+            <img class="card-img-top" src="./img/background-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Project</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+              </p>
+              <a href="#" class="btn btn-primary">Lees meer</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="row justify-content-center section-footer">
+        <div class="col-md-8 col-sm-10">
+          <button type="button" class="btn btn-primary btn-lg float-right">Meer studie projecten</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="web-developer">
+      <div class="row justify-content-center section-header bg-light">
+        <div class="col-md-8 col-sm-10">
+          <h2 class="section-header-title">Web Developer</h2>
+          <p class="section-header-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <aside class="col-md-4 col-sm-10">
+          <div class="card">
+            <img class="card-img-top" src="./img/background-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Project</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+              </p>
+              <a href="#" class="btn btn-primary">Lees meer</a>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-md-4 col-sm-10">
+          <div class="card">
+            <img class="card-img-top" src="./img/background-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Project</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+              </p>
+              <a href="#" class="btn btn-primary">Lees meer</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="row justify-content-center section-footer">
+        <div class="col-md-8 col-sm-10">
+          <button type="button" class="btn btn-primary btn-lg float-right">Meer development projecten</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <div class="row justify-content-center section-header bg-light">
+        <div class="col-md-8 col-sm-10">
+          <h2 class="section-header-title">Hobby's</h2>
+          <p class="section-header-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <aside class="col-md-4 col-sm-10">
+          <div class="card">
+            <img class="card-img-top" src="./img/background-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Project</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+              </p>
+              <a href="#" class="btn btn-primary">Lees meer</a>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-md-4 col-sm-10">
+          <div class="card">
+            <img class="card-img-top" src="./img/background-home.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Project</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc eu efficitur commodo, mi tortor viverra purus, quis elementum metus augue elementum nisi. Fusce convallis nisi justo, nec volutpat purus faucibus vehicula. Vestibulum quis hendrerit augue. Fusce imperdiet rhoncus ex, ornare bibendum orci maximus feugiat. Vivamus egestas nibh sed aliquam mollis. In ipsum velit, gravida nec rutrum eget, mollis cursus tortor. In hac habitasse platea dictumst.
+              </p>
+              <a href="#" class="btn btn-primary">Lees meer</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="row justify-content-center section-footer">
+        <div class="col-md-8 col-sm-10">
+          <button type="button" class="btn btn-primary btn-lg float-right">Meer hobby projecten</button>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+  <footer class="bg-primary text-white">
+
+    <div class="row justify-content-center section-header">
+      <div class="col-12 col-sm-10 col-md-8 footer-links">
+        <h4 class="footer-links-title">Links</h4>
+        <ul class="footer-link-list">
+          <li>
+            <a href="https://www.linkedin.com/in/ruben-smit-826b4365/" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/RubenSmit" target="_blank">
+              Github
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCJHpdsz1iLavPpSxngjwKxQ" target="_blank">
+              Youtube
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ruben_a_smit/" target="_blank">
+              Instagram
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselMain" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Vorige afbeelding</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselMain" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Volgende afbeelding</span>
-    </a>
-  </div>
+
+    <div class="row justify-content-center section-header">
+      <div class="col-12">
+        	<p class="footer-text text-center">&copy; Ruben Smit - 2018</p>
+      </div>
+    </div>
+
+  </footer>
 </body>
 </html>
