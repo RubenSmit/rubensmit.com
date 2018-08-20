@@ -15,8 +15,8 @@ import {
 const Home = ({ isLoading, studyProjects, devProjects, hobbyProjects }) => (
   <Layout>
     <Head>
-      <title>Hello world</title>
-      <meta name="description" content="Everything is awesome!" />
+      <title>Ruben Smit</title>
+      <meta name="description" content="Ruben Smit is een Student HBO-ICT en Webdeveloper uit Enschede." />
     </Head>
     <header>
       <div id="carousel">
@@ -165,20 +165,6 @@ const HomeContainer = withPhenomicApi(Home, props => ({
   })
 }));
 
-const ProjectLayout = ({ title, body }) => (
-  <article>
-    <Head>
-      <title>{title}</title>
-      <meta
-        name="description"
-        content={textRenderer(body).slice(0, 150) + "…"}
-      />
-    </Head>
-    <h1>{title}</h1>
-    <BodyRenderer>{body}</BodyRenderer>
-  </article>
-);
-
 const Project = ({ hasError, isLoading, page }) => {
   if (hasError) {
     return <PageError error={page.error} />;
@@ -186,11 +172,43 @@ const Project = ({ hasError, isLoading, page }) => {
 
   return (
     <Layout>
+      <Head>
+        <title>{page.title}</title>
+        <meta
+          name="description"
+          content={page.description}
+        />
+      </Head>
       {isLoading && "Loading..."}
-      {!isLoading && page.node && <ProjectLayout {...page.node} />}
-      <div>
-        <Link to="/">Go to home</Link>
-      </div>
+      {!isLoading && page.node && (
+        <article>
+          <header class="article-header">
+            <div id="carousel">
+              <div class="carousel-image">
+                <img src={page.node.image || "/img/background-home.jpg"} alt="Header image"/>
+              </div>
+              <div class="carousel-header row justify-content-center">
+                <div class="carousel-header-container col-12 col-sm-10 col-md-8">
+                  <h1 class="carousel-header-title">{page.node.title}</h1>
+                  {page.node.subtitle && (
+                    <p class="carousel-header-subtitle">{page.node.subtitle}</p>
+                  )}
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center article-header-paragraph">
+              <div class="col-md-8 col-sm-10">
+                <p class="article-header-text">{page.node.description}</p>
+              </div>
+            </div>
+          </header>
+          <section class="article-section row justify-content-center">
+            <div class="col-md-8 col-sm-10">
+              <BodyRenderer>{page.node.body}</BodyRenderer>
+            </div>
+          </section>
+        </article>
+      )}
     </Layout>
   );
 };
@@ -204,12 +222,32 @@ const PageError = ({ error }) => {
   const message = error && status !== 404 ? error.statusText : "Page not found";
 
   return (
-    <div>
+    <Layout>
       <Head>
         <title>{message}</title>
       </Head>
-      <h1>{message}</h1>
-    </div>
+      <article>
+        <header class="article-header">
+          <div id="carousel">
+            <div class="carousel-image">
+              <img src="/img/background-home.jpg" alt="Header image"/>
+            </div>
+            <div class="carousel-header row justify-content-center">
+              <div class="carousel-header-container col-12 col-sm-10 col-md-8">
+                <h1 class="carousel-header-title">{status}</h1>
+                <p class="carousel-header-subtitle">{message}</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center article-header-paragraph">
+            <div class="col-md-8 col-sm-10">
+              <p class="article-header-text">Dat is een error. Wat jammer weer!</p>
+              <Link to={`/`} class="btn btn-primary btn-lg float-right">Terug naar Home</Link>
+            </div>
+          </div>
+        </header>
+      </article>
+    </Layout>
   );
 };
 
@@ -236,10 +274,10 @@ const Layout = ({ children }) => (
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(huidige pagina)</span></a>
+            <Link to="/" class="nav-link">Home <span class="sr-only">(huidige pagina)</span></Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projecten</a>
+            <Link to="/project/" class="nav-link">Projecten</Link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>

@@ -1,9 +1,10 @@
 ---
 title: "Een studie project"
+subtitle: "Wow, dat is echt vet!"
 date: "2017-01-01"
 description: "Dit is een super lijp studie project waarbij ik kei veel dingen geleerd heb."
 type: "study"
-image: "./img/background-home.jpg"
+image: "/img/mountain.jpg"
 ---
 
 ## Titel
