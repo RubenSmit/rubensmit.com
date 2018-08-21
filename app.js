@@ -217,6 +217,67 @@ const ProjectContainer = withPhenomicApi(Project, props => ({
   page: query({ path: "content/projects", id: props.params.splat })
 }));
 
+const Projects = ({ hasError, isLoading, projects }) => {
+  if (hasError) {
+    return <PageError error={projects.error} />;
+  }
+
+  return (
+    <Layout>
+      <Head>
+        <title>Ruben Smit | Projecten</title>
+        <meta
+          name="description"
+          content="Alle projecten van Ruben Smit"
+        />
+      </Head>
+      {isLoading && "Loading..."}
+      {!isLoading && (
+        <article>
+          <header class="article-header">
+            <div id="carousel">
+              <div class="carousel-image">
+                <img src="/img/background-home.jpg" alt="Header image"/>
+              </div>
+              <div class="carousel-header row justify-content-center">
+                <div class="carousel-header-container col-12 col-sm-10 col-md-8">
+                  <h1 class="carousel-header-title">Projecten</h1>
+                </div>
+              </div>
+            </div>
+          </header>
+          <section class="projects-section">
+            <div class="row justify-content-center">
+              {projects &&
+                projects.node &&
+                projects.node.list &&
+                projects.node.list.map(project => (
+                  <div class="col-md-4 col-sm-10">
+                    <aside class="card" key={project.id}>
+                      <img class="card-img-top" src={project.image || "/img/background-home.jpg"} alt={project.title}/>
+                      <div class="card-body">
+                        <h3 class="card-title">{project.title}</h3>
+                        <p class="card-text">{project.description}</p>
+                        <Link to={`/project/${project.id}/`} class="btn btn-primary">Lees meer</Link>
+                      </div>
+                    </aside>
+                  </div>
+                ))}
+              </div>
+          </section>
+        </article>
+      )}
+    </Layout>
+  );
+};
+
+const ProjectsContainer = withPhenomicApi(Projects, props => ({
+  projects: query({
+    path: "content/projects",
+    sort: "date"
+  })
+}));
+
 const PageError = ({ error }) => {
   const status = (error && error.status) || 404;
   const message = error && status !== 404 ? error.statusText : "Page not found";
@@ -273,20 +334,19 @@ const Layout = ({ children }) => (
 
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <Link to="/" class="nav-link">Home <span class="sr-only">(huidige pagina)</span></Link>
+          <li class="nav-item">
+            <Link to="/" class="nav-link" activeClassName="is-active">Home</Link>
           </li>
           <li class="nav-item">
-            <Link to="/project/" class="nav-link">Projecten</Link>
+            <Link to="/project/" class="nav-link" activeClassName="is-active">Projecten</Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#" activeClassName="is-active">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header>{/* ... */}</header>
     <div>{children}</div>
 
     <footer class="bg-primary text-white">
@@ -334,6 +394,7 @@ const routes = () => (
   <Router history={browserHistory}>
     <Route path="/" component={HomeContainer} />
     <Route path="/after/:after" component={HomeContainer} />
+    <Route path="/project/" component={ProjectsContainer} />
     <Route path="/project/*" component={ProjectContainer} />
     <Route path="*" component={PageError} />
   </Router>
