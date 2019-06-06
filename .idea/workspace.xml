@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="906d5fb8-a1c5-4586-9d07-82a65b36a62f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_variablescustomized.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background-home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vid/background-video.mp4" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="35" column="102" lean-forward="true" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/style/style.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rubensmit.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubensmit.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rubensmit.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubensmit.com" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="906d5fb8-a1c5-4586-9d07-82a65b36a62f" name="Default Changelist" comment="" />
+      <created>1559487562125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559487562125</updated>
+      <workItem from="1559487563298" duration="1067000" />
+      <workItem from="1559808768653" duration="7665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8732000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="102" lean-forward="true" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
