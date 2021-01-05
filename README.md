@@ -1,2 +1,0 @@
-# rubensmit.com
-Personal website
