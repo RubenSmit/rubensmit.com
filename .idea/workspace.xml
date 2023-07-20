@@ -29,10 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f936d7-f33f-4ef5-abd7-de0f2268dfd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/rubensmit.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rubensmit.com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2023-02-10-syncing-led-corsage.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-07-20-welcome-to-jekyll.markdown" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,17 +57,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/rubens/dev/rubensmit.com",
+    "last_opened_file_path": "/home/rubens/dev/rubensmit.com/_posts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -83,7 +87,11 @@
       <workItem from="1610011785871" duration="1303000" />
       <workItem from="1630936358392" duration="4897000" />
       <workItem from="1631527402041" duration="1475000" />
-      <workItem from="1672751876623" duration="836000" />
+      <workItem from="1672751876623" duration="1162000" />
+      <workItem from="1672760765473" duration="34000" />
+      <workItem from="1689845455122" duration="6457000" />
+      <workItem from="1689857582919" duration="2211000" />
+      <workItem from="1689865431967" duration="2553000" />
     </task>
     <servers />
   </component>
@@ -100,15 +108,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="441" y="189" key="SettingsEditor" timestamp="1609939548768">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="441" y="189" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1609939548768" />
-    <state x="623" y="290" width="672" height="678" key="search.everywhere.popup" timestamp="1610013010314">
-      <screen x="0" y="28" width="1920" height="1172" />
-    </state>
-    <state x="623" y="290" width="672" height="678" key="search.everywhere.popup/0.28.1920.1172/1920.120.1920.1080@0.28.1920.1172" timestamp="1610013010314" />
   </component>
 </project>
