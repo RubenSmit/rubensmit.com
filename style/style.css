@@ -213,6 +213,7 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .item-content {
