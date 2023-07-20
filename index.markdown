@@ -5,4 +5,4 @@
 layout: home
 title: Creative Technologist
 ---
-I solve problems with technology. With a specialization in programming and a affinity with electronics.
+I solve problems with technology, with a specialization in programming and an affinity with electronics.

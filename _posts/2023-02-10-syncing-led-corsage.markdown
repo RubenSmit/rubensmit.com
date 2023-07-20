@@ -6,7 +6,7 @@ categories: Project
 image: /images/20230210/img.png
 ---
 
-Steal the show on the dance-floor with these LED corsage that sync their colors and animations.
+Steal the show on the dance-floor with these LED corsages that sync their colors and animations.
 
 The corsage consists of a ESP8266 with a small Neopixel ring and two buttons. The buttons can be used to change the
 color and animation mode of the corsage. These settings are transmitted via ESP-NOW to another corsage so their color

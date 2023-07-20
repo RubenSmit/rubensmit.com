@@ -31,7 +31,7 @@
     <img class="item-picture" alt="{{ post.title }}" src="{{ post.image }}">
     <div class="item-content">
       <h3>{{ post.title }}</h3>
-      <p class="info"><span class="category">{{ post.categories }}</span><span class="date">{{ post.date }}</span></p>
+      <p class="info"><span class="category">{{ post.categories }}</span><span class="date">{{ post.date | date: "%-d %B %Y" }}</span></p>
       <div class="text">{{ post.excerpt }}</div>
     </div>
   </a>
