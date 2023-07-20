@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-<article>
+<article class="article--no-wrap">
   <div class="content">
     <h1>Ruben Smit</h1>
     <span class="subtitle">{{ page.title }}</span>
@@ -32,7 +32,7 @@
     <div class="item-content">
       <h3>{{ post.title }}</h3>
       <p class="info"><span class="category">{{ post.categories }}</span><span class="date">{{ post.date }}</span></p>
-      <p>{{ post.excerpt }}</p>
+      <div class="text">{{ post.excerpt }}</div>
     </div>
   </a>
   {% endfor %}

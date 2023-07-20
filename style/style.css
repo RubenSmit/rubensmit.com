@@ -37,7 +37,7 @@ h3 {
     margin-top: 2px;
 }
 
-.company {
+.company, .category {
     color: #8FBDD9;
 }
 
@@ -69,6 +69,10 @@ article {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.article--no-wrap {
+    flex-wrap: nowrap;
 }
 
 .article-picture {
@@ -181,6 +185,10 @@ a:hover {
     object-fit: contain;
 }
 
+.text {
+    color: #000;
+}
+
 .text--large {
     font-size: large;
 }
@@ -276,6 +284,28 @@ a:hover {
     tilebox {
         max-width: 500px;
     }
+
+    .items {
+        padding: 20px;
+    }
+
+    .items-title {
+        margin-bottom: 30px;
+    }
+
+    .item {
+        flex-direction: column;
+    }
+
+    .item-content {
+        width: unset;
+        margin: 0;
+    }
+
+    .item-picture {
+        width: 90%;
+        heigth: 250px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -318,6 +348,10 @@ a:hover {
         font-size: 50px;
         margin: 0;
     }
+
+    .item-picture {
+        height: 200px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -354,11 +388,19 @@ a:hover {
         width: 100px;
         height: 100px;
     }
+
+    .item-picture {
+        height: 150px;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #2b2a33;
+        color: #fff;
+    }
+
+    .text {
         color: #fff;
     }
 
