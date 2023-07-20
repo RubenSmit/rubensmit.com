@@ -29,30 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f936d7-f33f-4ef5-abd7-de0f2268dfd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-07-20-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-07-20-welcome-to-jekyll.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/calendar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/csvalpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/gmail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/hackaday.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/netflix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/nos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/office.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/outlook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/plex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/reddit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/tweakers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tiles/youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/index.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +83,7 @@
       <workItem from="1631527402041" duration="1475000" />
       <workItem from="1672751876623" duration="1162000" />
       <workItem from="1672760765473" duration="34000" />
-      <workItem from="1689845455122" duration="5914000" />
+      <workItem from="1689845455122" duration="6457000" />
     </task>
     <servers />
   </component>
