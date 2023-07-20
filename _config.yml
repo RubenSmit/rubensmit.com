@@ -20,7 +20,7 @@
 
 title: Ruben Smit - Creative Technologist
 description: >- # this means to ignore newlines until "baseurl:"
-  I solve problems with technology, specialized in programming and a affinity with electronics.
+  I solve problems with technology. With a specialization in programming and a affinity with electronics.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: rubensmit.com
 url: "https://rubensmit.com" # the base hostname & protocol for your site, e.g. http://example.com

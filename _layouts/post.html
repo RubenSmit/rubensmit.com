@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>{{ page.title }} - Ruben Smit</title>
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="author" content="Ruben Smit">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+<nav>
+  <a href="/">Home</a>
+  <a href="/blog/">Blog</a>
+</nav>
+<article class="article--full">
+  <img class="article-picture" alt="{{ page.title }}" src="{{ page.image }}">
+  <div class="content content--full">
+    <h1>{{ page.title }}</h1>
+    <span class="subtitle">{{ page.categories }} {{ page.date }}</span>
+    <p class="text--large">
+      {{ content }}
+    </p>
+  </div>
+</article>
+</body>
+</html>

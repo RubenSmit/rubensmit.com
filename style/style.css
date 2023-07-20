@@ -51,6 +51,14 @@ article {
     padding: 100px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.article-picture {
+    width: 90%;
+    max-height: 75vh;
+    object-fit: cover;
+    margin-bottom: -150px;
 }
 
 .list {
@@ -88,6 +96,11 @@ article {
     margin-left: 0;
     margin-right: -140px;
     max-width: 640px;
+}
+
+.content--full {
+    padding: 100px 100px 100px 100px;
+    margin: 0;
 }
 
 .profile-picture {
@@ -152,8 +165,48 @@ a:hover {
     font-size: large;
 }
 
+.items {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.items-title {
+    width: 100%;
+    max-width: 1150px;
+    margin-bottom: 50px;
+}
+
+.item {
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.item-content {
+    padding: 40px;
+    margin-left: 0;
+    margin-right: -40px;
+    background-color: #f1f1f1;
+    width: 50%;
+}
+
+.item-picture {
+    width: 50%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
 @media (max-width: 1200px) {
     article {
+        padding: 50px;
+    }
+
+    .items {
         padding: 50px;
     }
 
@@ -198,6 +251,11 @@ a:hover {
         align-items: flex-end;
         flex-direction: column-reverse;
         padding-top: 0px;
+    }
+
+    .article--full {
+        align-items: center;
+        flex-direction: column;
     }
 
     .content {
@@ -259,5 +317,9 @@ a:hover {
 
     .tile:hover {
         background-color: #42414d;
+    }
+
+    .item-content {
+        background-color: #393840;
     }
 }
