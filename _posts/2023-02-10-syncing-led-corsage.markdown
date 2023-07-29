@@ -3,7 +3,7 @@ layout: post
 title: "Syncing LED corsage"
 date: 2023-02-10 11:19:53 +0200
 categories: Project
-image: /images/20230210/img.png
+image: /images/20230210/20230729_144952.jpg
 ---
 
 Steal the show on the dance-floor with these LED corsages that sync their colors and animations.
