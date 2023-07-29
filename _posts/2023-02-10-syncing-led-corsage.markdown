@@ -8,6 +8,8 @@ image: /images/20230210/20230729_144952.jpg
 
 Steal the show on the dance-floor with these LED corsages that sync their colors and animations.
 
+![Demonstration of the syned colors across devices](/images/20230201/ezgif-4-a6c1458c64.gif)
+
 The corsage consists of a ESP8266 with a small Neopixel ring and two buttons. The buttons can be used to change the
 color and animation mode of the corsage. These settings are transmitted via ESP-NOW to another corsage so their color
 and animation modes are synced. The PCB design is meant to be worn on a suit or dress. A battery management chip and a
