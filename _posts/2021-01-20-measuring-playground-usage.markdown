@@ -63,5 +63,17 @@ they are already present on the playground equipment they dont stand out and do 
 
 ## Sensor package
 
-Our final solution consisted of a ESP32 that is placed inside the frame of playground equipment. Powered by a battery it
-will stay in deep sleep most of the time, conserving battery.
+Our final solution consisted of a ESP32 that is placed inside the frame of playground equipment. Powered by a battery
+it will stay in deep sleep most of the time, conserving battery. Hidden behind a plastic cap that mimics the screw
+caps already used on the equipment. For moving equipment we used an accelerometer that pulls the ESP32 out of
+deepsleep when movement is detected. For static installations we used the built-in capacitive touch functionality of
+the ESP32. It is possible to pull the ESP32 out of deepsleep using capacitive touch.
+
+When usage of the playground is detected the microcontrollers send the collected data to a central node via BLE or
+WiFi. This node, another ESP32, has a more robust powersupply, it can for instance be placed inside a street lantern.
+The central node has a cellular connection and will send the data to the cloud for processing.
+
+## Conclusion
+With our experimental setup we proved that it was possible to measure the usage of playgrounds. Even equipment
+without movement can be monitored. The next step would be to perform field tests to prove that a sensor package can
+be created that also works in a permanent installation.
