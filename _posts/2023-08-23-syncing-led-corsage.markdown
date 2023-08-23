@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Syncing LED corsage"
-date: 2023-02-10 11:19:53 +0200
+date: 2023-08-23 09:19:53 +0200
 categories: Project
 image: /images/20230210/header.jpg
 ---

@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <title>{{ page.title }} - Ruben Smit</title>
-  <meta name="description" content="{{ page.description }}"/>
+  <meta name="description" content="{{ page.excerpt | strip_html }}"/>
   <meta name="author" content="Ruben Smit">
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Ruben Smit" />
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+  <meta property="og:image" content="{{ page.image }}" />
 
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style/style.css">
