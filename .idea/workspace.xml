@@ -29,7 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f936d7-f33f-4ef5-abd7-de0f2268dfd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2013-03-05-reprap-mendel-prusa-i2.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -89,6 +90,7 @@
       <workItem from="1689857582919" duration="2211000" />
       <workItem from="1689865431967" duration="2553000" />
       <workItem from="1690271425646" duration="604000" />
+      <workItem from="1690789227669" duration="10485000" />
     </task>
     <servers />
   </component>
