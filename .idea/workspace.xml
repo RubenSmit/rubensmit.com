@@ -29,9 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f936d7-f33f-4ef5-abd7-de0f2268dfd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-03-05-reprap-mendel-prusa-i2.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2013-03-05-reprap-mendel-prusa-i2.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <workItem from="1689865431967" duration="2553000" />
       <workItem from="1690271425646" duration="604000" />
       <workItem from="1690789227669" duration="10485000" />
-      <workItem from="1692779661099" duration="2741000" />
+      <workItem from="1692779661099" duration="3612000" />
     </task>
     <servers />
   </component>
