@@ -8,11 +8,11 @@
   <meta name="description" content="{{ page.excerpt | strip_html }}"/>
   <meta name="author" content="Ruben Smit">
 
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="Ruben Smit" />
-  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
-  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="Ruben Smit"/>
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}"/>
 
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style/style.css">
@@ -20,7 +20,11 @@
 <body>
 <nav>
   <div class="nav-container">
-    <a href="/">Home</a>
+    <a href="/" class="nav-brand">Ruben Smit</a>
+    <div class="nav-items">
+      <a href="/">Home</a>
+      <a href="/posts">Posts</a>
+    </div>
   </div>
 </nav>
 <article class="article--full">

@@ -17,7 +17,7 @@ h1 {
     margin-top: 0;
 }
 
-h2 {
+h2, h2 > a {
     color: #03A6A6;
     margin: 0;
     font-size: 25px;
@@ -61,6 +61,16 @@ nav {
     position: relative;
     max-width: 950px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items > * + * {
+    margin-left: 20px;
+}
+
+.nav-brand {
+    color: #03A6A6;
 }
 
 article {
@@ -209,6 +219,16 @@ a:hover {
     width: 100%;
     max-width: 1150px;
     margin-bottom: 50px;
+}
+
+.items-title--page {
+    margin-top: 60px;
+}
+
+.items-text {
+    width: 100%;
+    max-width: 1150px;
+    margin-bottom: 10px;
 }
 
 .item {

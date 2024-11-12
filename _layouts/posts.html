@@ -18,21 +18,18 @@
   <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-<article class="article--no-wrap">
-  <div class="content">
-    <h1>Ruben Smit</h1>
-    <span class="subtitle">{{ page.title }}</span>
-    <p class="text--large">
-      {{ content }}
-    </p>
-    <a href="https://github.com/RubenSmit" target="_blank" class="spaced">Github</a>
-    <a href="https://www.linkedin.com/in/ruben-smit-826b4365/" target="_blank">LinkedIn</a>
+<nav>
+  <div class="nav-container">
+    <a href="/" class="nav-brand">Ruben Smit</a>
+    <div class="nav-items">
+      <a href="/">Home</a>
+      <a href="/posts">Posts</a>
+    </div>
   </div>
-  <img class="profile-picture" src="images/profile-image.png">
-</article>
+</nav>
 <section class="items">
-  <h2 class="items-title"><a href="/posts">Posts</a></h2>
-  {% for post in site.posts limit:10 %}
+  <h1 class="items-title items-title--page">Posts</h1>
+  {% for post in site.posts %}
   <a href="{{ post.url }}" class="item">
     <img class="item-picture" alt="{{ post.title }}" src="{{ post.image }}">
     <div class="item-content">
@@ -42,7 +39,6 @@
     </div>
   </a>
   {% endfor %}
-  <a href="/posts" class="items-text">View all posts</a>
 </section>
 <footer>
   © Ruben Smit
