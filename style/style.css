@@ -153,6 +153,80 @@ article {
     height: 200px;
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 18px;
+    margin: 20px 0 0;
+    color: #8FBDD9;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #8FBDD9;
+    white-space: nowrap;
+}
+
+a.link:hover {
+    color: #03A6A6;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.roles {
+    list-style: disc;
+    margin: 0 0 10px;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #8FBDD9;
+}
+
+.roles .date {
+    margin-left: 10px;
+}
+
+.skills {
+    width: 930px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 10px;
+    padding: 20px 40px;
+    background-color: #f1f1f1;
+}
+
+.skills dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 30px;
+    margin: 0;
+}
+
+.skills dt {
+    color: #8FBDD9;
+}
+
+.skills dd {
+    margin: 0;
+}
+
+@media (max-width: 750px) {
+    .skills dl {
+        grid-template-columns: 1fr;
+        gap: 2px;
+    }
+
+    .skills dd {
+        margin-bottom: 10px;
+    }
+}
+
 a {
     text-decoration: none;
     color: #8FBDD9;
@@ -449,5 +523,142 @@ footer {
 
     .item-content {
         background-color: #393840;
+    }
+
+    .skills {
+        background-color: #393840;
+    }
+}
+
+@page {
+    margin: 14mm;
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+        font-size: 10pt;
+    }
+
+    article {
+        display: block;
+        padding: 0;
+    }
+
+    .row, .row--large {
+        display: block;
+        position: relative;
+        width: auto;
+        margin: 0 0 10pt;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .content, .content--row, .content--large {
+        background-color: transparent;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .row-picture {
+        position: absolute;
+        left: 0;
+        top: 0;
+        object-fit: contain;
+    }
+
+    .row h3, .row .info {
+        padding-left: 40px;
+    }
+
+    .row .roles {
+        padding-left: 56px;
+    }
+
+    .row--large h1, .row--large .subtitle {
+        display: block;
+        padding-left: 64px;
+    }
+
+    .row p, .roles {
+        margin: 3pt 0;
+    }
+
+    h1 {
+        font-size: 24pt;
+        margin: 0;
+    }
+
+    .subtitle {
+        font-size: 12pt;
+    }
+
+    h2, .section-title {
+        width: auto;
+        font-size: 13pt;
+        margin: 12pt 0 6pt;
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    h3 {
+        font-size: 11pt;
+    }
+
+    .info, .roles {
+        font-size: 9pt;
+    }
+
+    .row-picture {
+        width: 30px;
+        height: 30px;
+    }
+
+    .row-picture--large {
+        width: 54px;
+        height: 54px;
+        object-fit: cover;
+    }
+
+    .skills {
+        width: auto;
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .skills dl {
+        grid-template-columns: max-content 1fr;
+        gap: 3pt 20pt;
+    }
+
+    .skills dd {
+        margin-bottom: 0;
+    }
+
+    .links {
+        margin-top: 8pt;
+        gap: 4pt 14pt;
+    }
+
+    a, .link, .links {
+        color: #000;
+    }
+
+    .icon {
+        width: 11px;
+        height: 11px;
+    }
+
+    nav, footer {
+        display: none;
+    }
+
+    .no-print {
+        display: none !important;
     }
 }
